@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>No New Friends</title>
+	<link href="assets/favicon.ico" rel="icon" type="image/x-icon"/>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<script src="https://use.fontawesome.com/4ac5704fc0.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Asap|Cantata+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Caveat|Walter+Turncoat" rel="stylesheet">
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+<div class="container">
+<div class="fullscreen-overlay">
+			<div class="fullscreen-bg">
+				<video poster="assets/Puppiness/SnapShots/Puppiness.jpg" autoplay loop height="100%" width="100%" class="fullscreen--bg__video">
+				  <source src="assets/Puppiness/MP4/Puppiness.mp4" type="video/mp4">
+				  <source src="assets/Puppiness/WEBM/Puppiness.webm" type="video/webm">
+				  Your browser does not support the video element.
+				</video>
+				<div class="headline">
+			<div class="wrapper">
+				<h1>N <i class="fa fa-paw" aria-hidden="true"></i> New Friends</h1>
+				<form action="">
+					<h2>Find your new best fur friend</h2>
+					<input type="text" placeholder="Enter your postal code" class="location" required>
+					<!--drop down select menus to select size and age of dog -->
+					<label for="activities">How big do you want your furry friend to be?</label>
+					<select name="size" id="size">
+						<option value="S">Small</option>
+						<option value="M">Medium</option>
+						<option value="L">Large</option>
+						<option value="XL">Extra big and cuddly!</option>
+					</select>
+
+					<label for="age">How old would you like your furry friend to be?</label>
+					<select name="age" id="age">
+						<option value="baby">Just a puppy</option>
+						<option value="young">Teen</option>
+						<option value="adult">Adult</option>
+						<option value="senior">Senior</option>
+					</select>
+
+					<input type="submit" value="Show me my future pet!" class="submitButton" id="submit">
+				</form>
+			</div>
+			</div>
+		</div>
+		</div>	
+
+	</header>
+
+	<section class="results">
+		<ul class="deck"></ul>
+	</section>
+
+	<section class="choices">
+			<div class="wrapper faveddogs">
+			</div>
+	</section>
+</div>
+
+<footer class="closing">
+	<div class="wrapper">
+		<p> &copy; Nahrin Jalal 2017</p>
+	</div>
+</footer>
+
+<main id="app"></main>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="javascript/transform2d.js"></script>
+	<script src='javascript/jTinder.js'></script>
+	<script src= "javascript/script.js"></script>
+</body>
+</html>
+
+
+
